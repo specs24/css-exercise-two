@@ -1,15 +1,28 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
   font-size: 16px;
-  line-height:
+  line-height: 150%;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(103, 187, 119, 0.6);
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 2em; /* 32px */  
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p {
+  font-size: 100%; /* 16px */
 }
 
 .logo {
@@ -32,11 +45,13 @@ nav {
 
 .right {
   float: right;
+  color: black;
 }
 
 ul {
   list-style-type: none;
   float: right;
+  
 }
 
 li {
@@ -52,3 +67,14 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+a {
+  text-decoration: none;
+  
+}
+
+a:link { color:black; } /* unvisited */
+a:visited { color:purple; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected
+
