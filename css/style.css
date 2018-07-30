@@ -1,80 +1,25 @@
 body {
-  background-color: #ffffff;
-  color: #000000;
-  font-size: 16px;
-  line-height: 150%;
+  background-color: #dadada;
+  font-size: 10px;
 }
 
-nav {
-  background-color: rgba(103, 187, 119, 0.6);
+div {
   float: left;
-  position: fixed;
+  margin: 1% 0;
   width: 100%;
+  padding: 20px 25px;
 }
 
-h1 {
-  font-size: 2em; /* 32px */  
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+@media screen and (min-width: 575px){
+  div {
+      margin: 1%;
+      width:48%;
+  }
 }
 
-h3 {
-  font-style: italic;
+@media screen and (min-width: 991px){
+  div {
+      margin: 1%;
+      width: 19%;
+  }
 }
-
-p {
-  font-size: 100%; /* 16px */
-}
-
-.logo {
-  margin: 20px;
-  width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
-}
-
-.left, .right {
-  float: left;
-  width: 50%;
-}
-
-.right {
-  float: right;
-  color: black;
-}
-
-ul {
-  list-style-type: none;
-  float: right;
-  
-}
-
-li {
-  float: right;
-  padding: 30px;
-}
-
-article {
-  padding-top: 100px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 50%;
-}
-
-a {
-  text-decoration: none;
-  
-}
-
-a:link { color:black; } /* unvisited */
-a:visited { color:purple; } /* visited */
-a:hover { color:#0070BC; } /* mouse over */
-a:active { color:#0070BD; } /* selected
-
